@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+     
+    int hectometros, decametros, metros;
+    int perimetro_decimetros;
+    cout << "Ingrese la longitud del perímetro en hectómetros: ";
+    cin >> hectometros;
+    cout << "Ingrese la longitud del perímetro en decámetros: ";
+    cin >> decametros;
+    cout << "Ingrese la longitud del perímetro en metros: ";
+    cin >> metros;
+    
+    perimetro_decimetros = (hectometros * 1000) + (decametros * 10) + (metros / 10);
+    cout << "El perímetro en decímetros es: " << perimetro_decimetros << endl;
+
+    return 0;
+}
