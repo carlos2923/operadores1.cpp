@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    char bebida, ubicacion, totalapagar=0; // DONDE ALMACENAMOS ESTOS VALORES
+    char bebida, ubicacion, totalapagar=0; // DONDE ALMACENAMOS ESTOS VALORES:::cout ,cin 
     cout << "Ingrese su ubicacion (1-4): ";
     cin >> ubicacion;
     cout << "Ingrese cantidad de entradas: ";
